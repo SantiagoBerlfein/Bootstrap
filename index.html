@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imagenes/icono.jpg" type="image/x-icon">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="index.html" class="titulo ms-4 fs-4 text-uppercase">Gots</a>
+      <div class="collapse navbar-collapse me-4" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto links fs-5">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./imagenes/zapato2.jpg" class="d-block w-100 logo" alt="imágen 1 del carro">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./imagenes/zapato1.jpg" class="d-block w-100 logo" alt="imágen 2 del carro">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./imagenes/zapato3.jpg" class="d-block w-100" alt="imágen 3 del carro">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+<body>
+  <main>
+    <h2 class="m-5 text-center">Nuestros productos</h2>
+    <div class="row m-5">
+      <div class="col-md my-4 mx-2">
+        <div class="card w-100 card-border cursor">
+          <img src="./imagenes/zapatillac1.jpg" class="card-img-top" alt="imágen de card 1">
+          <div class="card-body">
+            <h5 class="card-title mb-4">Jordan Nike</h5>
+            <p class="card-text"><b>26.999$</b></p>
+            <p class="card-text"><b>3</b> cuotas de <b>9.000$</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md my-4 mx-2">
+        <div class="card w-100 card-border cursor">
+          <img src="./imagenes/zapatillac2.jpg" class="card-img-top" alt="imágen de card 2">
+          <div class="card-body">
+            <h5 class="card-title mb-4">Running Nike</h5>
+            <p class="card-text"><b>35.000$</b></p>
+            <p class="card-text"><b>12</b> cuotas de <b>2.917$</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md my-4 mx-2">
+        <div class="card w-100 card-border cursor">
+          <img src="./imagenes/zapatillac3.jpg" class="card-img-top" alt="imágen de card 3">
+          <div class="card-body">
+            <h5 class="card-title mb-4">Nike Aire-Force</h5>
+            <p class="card-text"><b>40.000$</b></p>
+            <p class="card-text"><b>6</b> cuotas de <b>6.666$</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0">
+      <div class="col">
+        <div class="card text-bg-dark card-50 ms-5 cursor card-border">
+          <img src="./imagenes/zapatillaL.jpg" class="card-img" alt="Foto de zapatillas">
+          <div class="card-img-overlay d-flex align-items-end justify-content-center">
+            <p class="card-text"><small>Last updated two days ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-dark card-50 me-5 cursor card-border">
+          <img src="./imagenes/zapatillaL2.jpg" class="card-img" alt="Foto de zapatillas2">
+          <div class="card-img-overlay d-flex align-items-end justify-content-center">
+            <p class="card-text"><small>Last updated two days ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="m-5 text-center">Nuestras ofertas</h2>
+    <div class="row mx-5">
+      <div class="col">
+        <div class="card mb-3 cursor card-border">
+          <img src="./imagenes/zapatillasTroner.jpg" class="card-img-top cardTop" alt="Zapatillas oferta">
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Nike troner</h5>
+            <p class="card-text"><del>80.000$</del></p>
+            <p class="card-text">50.000$</p>
+          </div>        
+      </div>
+      <div class="col mt-5">
+        <div class="card mb-3 cursor card-border">
+          <img src="./imagenes/zapatillasFull.jpg" class="card-img-top cardTop" alt="Zapatillas oferta 2">
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Full</h5>
+            <p class="card-text"><del>120.000$</del></p>
+            <p class="card-text">70.000$</p>
+          </div>        
+      </div>
+    </div>
+  </main>
+  <footer class="bg-dark mt-5">
+    <div class="m-0 text-white p-5">
+      <div class="row media">
+        <div class="col-2 d-flex">
+          <h6>Seguinos</h6>
+          <a href="#"><i class="fa-brands fa-facebook fs-2 mx-3"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram fs-2"></i></a>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <input type="email" name="email" id="email" placeholder="Ingresá tu mail" class="w-75 p-2">
+            <button type="button" class="btn btn-warning mt-3 w-50">Suscribirme</button>
+          </div>
+        </div>
+      </div>
+      <div class="row media-2 mt-4 ms-5">
+        <div class="col">
+          <h5>Goots</h5>
+          <a href="#">¿Quiénes somos?</a> <br>
+          <a href="#">Sucursales</a> <br>
+          <a href="#">Términos y condiciones</a> <br>
+          <a href="#">Políticas de privacidad</a> <br>
+        </div>
+        <div class="col">
+          <h5>¿Necesitás ayuda?</h5>
+          <a href="#">Preguntas frecuentes</a> <br>
+          <a href="#">Venta corporativa</a> <br>
+          <a href="#">Formas de envío</a> <br>
+          <a href="#">Cambios</a> <br>
+          <a href="#">Botón de arrepentimiento</a>
+        </div>
+        <div class="col">
+          <h5>Atención al cliente</h5>
+          <a href="#">Contacto 11-5578-0529</a>
+          <p>Lunes a Viernes de 9 a 20hs.</p>
+          <p>Sábados de 9 a 14hs.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/02471e1ddc.js" crossorigin="anonymous"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
